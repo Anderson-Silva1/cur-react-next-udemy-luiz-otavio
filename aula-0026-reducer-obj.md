@@ -104,3 +104,34 @@ const App = () => {
 
 export default App;
 ```
+
+---
+
+## Estrutura de pastas usando `useReducer()`
+
+```plaintext
+📦src
+ ┣ 📂assets
+ ┃ ┗ 📄logo.svg
+ ┣ 📂components
+ ┃ ┗ 📂shared
+ ┃   ┗ 📄Button.tsx
+ ┣ 📂contexts
+ ┃ ┗ 📂TaskContext
+ ┃   ┣ 📄taskReducer.ts
+ ┃   ┣ 📄taskActions.ts
+ ┃   ┣ 📄taskTypes.ts
+ ┃   ┗ 📄TaskProvider.tsx
+ ┣ 📂hooks
+ ┃ ┗ 📄useTaskContext.ts
+ ┣ 📂pages
+ ┃ ┣ 📄Home.tsx
+ ┃ ┗ 📄About.tsx
+ ┣ 📂types
+ ┃ ┗ 📄task.d.ts
+ ┣ 📂utils
+ ┃ ┗ 📄formatDate.ts
+ ┣ 📄App.tsx
+ ┣ 📄main.tsx
+ ┗ 📄vite-env.d.ts
+```
