@@ -150,7 +150,7 @@ export type PostTableSelectMode = InferInsertModel<typeof postsTable>;
 - **`import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";`**
 
   - Importa funções específicas para SQLite do módulo `drizzle-orm/sqlite-core`:
-    - **`sqliteTable`**: Função para definir tabelas compatíveis com o SQLite.
+    - **`sqliteTable`**: Função para criar e definir tabelas compatíveis com o SQLite.
     - **`text`**: Define colunas do tipo `TEXT` (strings no SQLite).
     - **`integer`**: Define colunas do tipo `INTEGER`, usado aqui para um campo booleano.
 
