@@ -249,6 +249,8 @@ const sqliteDataBase = new Database(sqliteDataBasePath);
 export const drizzleDb = drizzle(sqliteDataBase, {
   schema: {
     posts: postsTable,
+    // users: usersTable,
+    // section: sectionTable,
   },
   logger: true,
 });
